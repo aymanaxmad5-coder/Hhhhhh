@@ -1,0 +1,64 @@
+/* Universal Selector */
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ID Selector */
+#logo {
+    color: blue;
+    text-align: center;
+}
+
+/* Class Selector */
+.offer {
+    color: red;
+    font-weight: bold;
+}
+
+/* Descendant Selector */
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+/* Header */
+header {
+    background-color: #f4f4f4;
+    padding: 15px;
+}
+
+/* Navigation */
+nav {
+    background-color: rgb(0, 100, 0);
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+/* Main */
+main {
+    background-color: rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: hsl(200, 50%, 40%);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Float Box */
+.float-box {
+    float: right;
+    width: 200px;
+    background: #ddd;
+    padding: 10px;
+}
